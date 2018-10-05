@@ -2,6 +2,9 @@
 	margin: 0;
 	padding: 0;
 }
+.clearfix{
+	clear: both;
+}
 header, #wrapper, footer{
 	width: 1200px;
 	margin: 0 auto;
@@ -39,10 +42,11 @@ nav{
 	transform: scale(1.1);
 }
 #wrapper{
-	height: 500px;
+	/*height: 700px;*/
 	background: #abc213;
 }
 aside{
+	min-height: 700px;
 	height: 100%;
 	width: 30%;
 	background: #f0f0f0;
@@ -50,9 +54,20 @@ aside{
 }
 #wrapper section{
 	height: 100%;
-	width: 70%;
+	width: 66%;
 	background: #ff00aa;
 	float: left;
+	padding: 0 2%;
+}
+article{
+	float: left;
+	width: 30%;
+	overflow: hidden;
+	text-align: center; 
+}
+.centrado{
+	margin-left: 5%;
+	margin-right: 5%;
 }
 footer{
 	height: 100px;
