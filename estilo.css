@@ -20,6 +20,16 @@ nav{
 #nav_header{
 	list-style: none;
 }
+form{
+	padding: 30px;
+}
+h1{
+	margin-bottom: 20%;
+	text-align: center;
+}
+h5{
+	color: #ccc;
+}
 .boton{
 	display: inline-block;
 	width: 20%;
@@ -45,6 +55,9 @@ nav{
 	/*height: 700px;*/
 	background: #abc213;
 }
+.ancho{
+	width: 100%;
+}
 aside{
 	min-height: 700px;
 	height: 100%;
@@ -62,6 +75,7 @@ aside{
 article{
 	float: left;
 	width: 30%;
+	padding: 117px;
 	overflow: hidden;
 	text-align: center; 
 }
