@@ -1,3 +1,28 @@
-.col{
-	background: #ccc;
+header{
+	background:url("img/bgheader.jpg") ;
+	height: 659px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.boton{
+	display: inline-block;
+	text-align:left;
+	float: left;
+	margin-right: 26px;
+}
+.boton a{
+	padding: 10px 0;
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-decoration: none;
+	color: #fff;
+}
+
+/*.boton a:hover{
+	background: #535353;
+	color: #f9f9cc;
+	transform: scale(1.1);*/
+
 }
