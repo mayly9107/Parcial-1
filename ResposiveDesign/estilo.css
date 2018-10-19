@@ -4,7 +4,11 @@ header{
 	background-repeat: no-repeat;
 	background-size: cover;
 }
-
+ul{
+	width: 100%;
+	height: 40px;
+	display: block;
+}
 .boton{
 	display: inline-block;
 	text-align:left;
@@ -19,10 +23,32 @@ header{
 	text-decoration: none;
 	color: #fff;
 }
-
-/*.boton a:hover{
-	background: #535353;
-	color: #f9f9cc;
-	transform: scale(1.1);*/
-
+ul li{
+	display: inline-block;
+	float: left; 
 }
+li a{
+	color: white;
+	font-size: 14px;
+	padding: 8px;
+	display: block;
+	border-top: 5px solid transparent;
+}
+.activo, li a:hover{/*hover efecto puntero*/
+	font-weight: bold;
+	border-top: 5px solid #54d154;
+	color: #fff;
+	text-decoration: none;
+}
+.buscador{
+	background: rgba(217,216,216, 0.85);/*rgba es para transparencia*/
+	border: none;/*quitar el border*/
+	border-radius: 15px; /* para hacerlo mas circular en las puntas*/
+	height: 27px;
+	padding: 7px 14px;/* 7px es e;l top y el 14 es derecha izq*/
+	font-size: 16px;
+	color: #111111;/*color dentro del buscador*/
+}
+
+/* Investigar como añadir fuentes con google fonts*/
+/* Añadir iconos con font awesome*/
