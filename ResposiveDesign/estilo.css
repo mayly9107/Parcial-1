@@ -141,13 +141,14 @@ li a{
 	height: 143px;
 	border-radius: 30px;
 	justify-content: center;
-	display: flex;
+	display: flex; 
 }
 .color{
 	color: #54d154;
 	justify-content: center;
 	display: flex;
 	float: center;
+	margin-top: 28px;
 }
 .fontlorem1{
 	font-size: 20px;
