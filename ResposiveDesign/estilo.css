@@ -59,7 +59,7 @@ li a{
     margin-top: 5px;
 }
 #center-header{
-	height: 565px; /* si tiene un border tengo que respetarle el tamño y restarle el tamaño del padding al; header*/
+	height: 560px; /* si tiene un border tengo que respetarle el tamño y restarle el tamaño del padding al; header*/
 }
 #centradito{
 	display: flex;
@@ -117,8 +117,9 @@ li a{
 .font-section{
 	font-size: 20px;
 	color: #828181;
-	margin-top: 5%;
+	margin-top: 42px;
 }
+
 .line{
 	justify-content: center;
 	width: 43px;
@@ -131,7 +132,56 @@ li a{
 	margin-top: 1%;
 	align-items: center;
 }
-
+.height{
+	height: 46px;
+}
+.picture{
+	background: #e1f3e1;
+	width: 143px;
+	height: 143px;
+	border-radius: 30px;
+	justify-content: center;
+	display: flex;
+}
+.color{
+	color: #54d154;
+	justify-content: center;
+	display: flex;
+	float: center;
+}
+.fontlorem1{
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 26px;
+	color: #828181;
+	text-align: left;
+}
+.fontlorem2{
+	font-size: 15px;
+	font-weight: lighter;
+	margin-top: 18px;
+	color: #828181;
+	text-align: left;
+	width: 80%;
+	height: 40%;
+}
+#learnmore{
+	justify-content: center;
+	display: flex;
+	background: #54d154;
+	width: 120px;
+	height: 28px;
+	border-radius: 20px;
+	margin-top: 27px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+	padding:4px 0px;
+	text-decoration: none;
+}
+#learnmore:hover{
+	color: #828181;
+}
 
 /* Investigar como añadir fuentes con google fonts
 en el head agrego: 
