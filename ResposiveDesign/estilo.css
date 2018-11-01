@@ -61,7 +61,7 @@ li a{
 #center-header{
 	height: 560px; /* si tiene un border tengo que respetarle el tamño y restarle el tamaño del padding al; header*/
 }
-#centradito{
+.centradito2, #scrollcentradito, #centradito{
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -85,15 +85,48 @@ li a{
 	font-size: 21px;
 	transition: 0.5s ease all;
 }
-#centradito a:hover{
+.centradito2, #centradito a:hover{
 	text-decoration: none;
 	background: #f34d04;
 	transform: scale(1.05);
 }
-#scrollcentradito{
+.centradito2{
+ 	background: #2b9b2b;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	width: 190px;
+	height: 41px;
+	border-radius: 20px;
+	margin-top: 6px;
+	padding: 6px 0;
+	font-weight: normal;
+	font-size: 16px;
+	transition: 0.5s ease all;	
+ }
+#centradito1{
+	background: #2b9b2b;
+	color: #fff;
+	text-align: center;
+	display: block;
+	width: 205px;
+	height: 49px;
+	border-radius: 30px;
+	padding: 9px 0;
+	font-weight: normal;
+	font-size: 21px;
+	transition: 0.5s ease all;
+}
+#centradito1 a:hover{
+	text-decoration: none;
+	background: #f34d04;
+	transform: scale(1.05);
+}
+/*#scrollcentradito{
 	display: flex;
 	justify-content: center;		
-}
+}*/
 #scrollcentradito a{
 	background: rgba(217,216,216, 0.85);/*rgba es para transparencia*/
 	border: none;/*quitar el border*/
@@ -118,9 +151,10 @@ li a{
 	font-size: 20px;
 	color: #828181;
 	margin-top: 42px;
+	font-weight: lighter;
 }
 
-.line{
+.line2, .line{
 	justify-content: center;
 	width: 43px;
 	border-bottom:  2px  solid #828181;
@@ -202,16 +236,69 @@ li a{
 	margin-top: 42px;
 }
 .line2{
-	justify-content: center;
-	width: 43px;
 	border-bottom:  2px  solid #207b20;
-	float: center;
 	margin-top: 12px;
 }
-.font-section3{
+.font-section3, .font-section4{
 	font-size: 15px;
 	color: #207b20;
 	margin-top: 1%;
+	align-items: center;
+}
+.font-section4{
+	color: black;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #2b9b2b;
+    width: 122px;
+    height: 33px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+ }
+ .nav-pills .nav-link, .nav-pills .show>.nav-link {
+    color: #2b9b2b;
+    background-color: #fff;
+    width: 88px;
+    height: 33px;
+    border-radius: 0px;
+    border-right: 1px solid;
+ }
+ .nav-link1{
+ 	width: 68px;
+ 	color: #2b9b2b;
+ 	background-color: #fff;
+ 	text-decoration: none;
+ 	padding-top: 7px;
+ 	border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+ .padding{
+ 	margin-top: 60px;
+ 	padding-bottom: 54px;
+ }
+ .padding1{
+ 	margin-top: 28px;
+ }
+.carousel-item {
+  height: 180px;
+  background: no-repeat center center scroll;
+}
+.carousel-item active{
+	height: 180px;
+	background: #e0dfdf;
+	margin-top: 0px;
+}
+.carousel-caption{
+	color: #575757;
+	margin-top: 0px;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon{
+	background-color: #000; 
+}
+.carrusel{
+	display: flex;
+	justify-content: center;
 	align-items: center;
 }
 /* Investigar como añadir fuentes con google fonts
@@ -225,3 +312,5 @@ font-family: 'Charmonman', cursive;
 
 /* Añadir iconos con font awesome*/
 /*hacer el scrolldown-encabezado de la otra clase*/
+/*line-height  multiplicar el font size por el valor, y crea el interlineado
+margin: auto ya se centra en el medio de la imagen*/
