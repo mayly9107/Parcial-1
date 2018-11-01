@@ -85,12 +85,12 @@ li a{
 	font-size: 21px;
 	transition: 0.5s ease all;
 }
-.centradito2, #centradito a:hover{
+#centradito a:hover{
 	text-decoration: none;
 	background: #f34d04;
 	transform: scale(1.05);
 }
-.centradito2{
+.centradito3, .centradito2{
  	background: #2b9b2b;
 	color: #fff;
 	text-align: center;
@@ -104,6 +104,10 @@ li a{
 	font-weight: normal;
 	font-size: 16px;
 	transition: 0.5s ease all;	
+ }
+ .centradito3{
+ 	background: #dddcdc;
+	color: #a9a2a2;
  }
 #centradito1{
 	background: #2b9b2b;
@@ -274,8 +278,8 @@ li a{
     border-bottom-right-radius: 20px;
 }
  .padding{
- 	margin-top: 60px;
- 	padding-bottom: 54px;
+ 	margin-top: 50px;
+ 	padding-bottom: 24px;
  }
  .padding1{
  	margin-top: 28px;
@@ -295,11 +299,18 @@ li a{
 }
 .carousel-control-prev-icon, .carousel-control-next-icon{
 	background-color: #000; 
+	margin-bottom: 70px;
 }
 .carrusel{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+#color_section4{
+	background-color: #f2f1f1;
+}
+.logo{
+	margin-right: 30px;
 }
 /* Investigar como añadir fuentes con google fonts
 en el head agrego: 
