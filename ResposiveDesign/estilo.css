@@ -108,6 +108,7 @@ li a{
  .centradito3{
  	background: #dddcdc;
 	color: #a9a2a2;
+	margin-bottom: 30px;
  }
 #centradito1{
 	background: #2b9b2b;
@@ -284,6 +285,9 @@ li a{
  .padding1{
  	margin-top: 28px;
  }
+ .padding2{
+ 	padding-bottom: 34px;
+ }
 .carousel-item {
   height: 180px;
   background: no-repeat center center scroll;
@@ -306,19 +310,46 @@ li a{
 	justify-content: center;
 	align-items: center;
 }
-#color_section4{
+.color_section4{
 	background-color: #f2f1f1;
+	padding: 0px;
 }
 .logo{
 	margin-right: 30px;
 }
 .line3{ 
 width:10px;
-height:100px; 
+height:80px; 
 border-right:2px solid #217b23; 
 padding-left:45px;
-margin-left:20px; 
+margin-left:15px; 
+margin-top: 10px;
 }
+.name{
+	font-weight: normal;
+	color: #fff;
+	padding-top: 5px;
+	margin-right: 10px;
+	margin-top: 11px;
+	margin-left: 15px;
+}
+.Fbotonpicture{
+	background-color: #c5e9c5;
+	border-radius: 20px;
+	width: 84px;
+	display: inline-block;
+	margin-left:20px; 
+	margin-bottom: 10px;
+}
+.botonpicture{
+	padding: 4px;
+}
+#color_section5{
+	background-color: #3eba3e;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
 /* Investigar como añadir fuentes con google fonts
 en el head agrego: 
 <style>
