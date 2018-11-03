@@ -318,28 +318,22 @@ li a{
 	margin-right: 30px;
 }
 .line3{ 
-width:10px;
+width:1px;
 height:80px; 
 border-right:2px solid #217b23; 
-padding-left:45px;
-margin-left:15px; 
-margin-top: 10px;
+margin: 10px auto;
 }
 .name{
 	font-weight: normal;
 	color: #fff;
-	padding-top: 5px;
-	margin-right: 10px;
-	margin-top: 11px;
-	margin-left: 15px;
+	text-align: center;
 }
 .Fbotonpicture{
 	background-color: #c5e9c5;
 	border-radius: 20px;
 	width: 84px;
-	display: inline-block;
-	margin-left:20px; 
-	margin-bottom: 10px;
+	display: block;
+	margin: auto;
 }
 .botonpicture{
 	padding: 4px;
@@ -350,6 +344,29 @@ margin-top: 10px;
 	padding-bottom: 20px;
 }
 
+.autor_testimonial{
+	display: flex;
+	align-items: center;
+}
+
+.derecho_autor h3{
+	color: #444;
+	font-size: 16px;
+	font-weight: 400;
+	text-align: left;
+}
+.derecho_autor h4{
+	color: #ccc;
+	font-size: 16px;
+	font-weight: 400;
+}
+.slick-prev:before, .slick-next:before{
+	color: #444;
+}
+.img_nosotros{
+	display: block;
+	margin: auto;
+}
 /* Investigar como añadir fuentes con google fonts
 en el head agrego: 
 <style>

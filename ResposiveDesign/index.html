@@ -10,6 +10,7 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet"><!--font-->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous"><!--Estilos de iconos awesome-->
   <link rel="stylesheet" type="text/css" href="js/slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="js/slick/slick-theme.css">
   <link rel="stylesheet" href="estilo.css">
   <title>Hello, world!</title> <!--Definir título en la barra de título-->
 </head>
@@ -104,14 +105,14 @@
             </div>
           </div>
           <!--Imágenes-->
-          <div class="row col-md-12 padding">
+          <div class="row padding">
               <article class="col-md-2 offset-md-1"><img src="img/8.jpg"></article>
               <article class="col-md-2"><img src="img/7.jpg"></article>
               <article class="col-md-2"><img src="img/9.jpg"></article>
               <article class="col-md-2"><img src="img/10.jpg"></article>
               <article class="col-md-2"><img src="img/1.jpg"></article>
           </div>
-          <div class="row col-md-12 padding1">
+          <div class="row padding1">
               <article class="col-md-2 offset-md-1 center-section"><img src="img/2.jpg"></article>
               <article class="col-md-2"><img src="img/3.jpg"></article>
               <article class="col-md-2"><img src="img/4.jpg"></article>
@@ -130,30 +131,61 @@
               <hr class="line">
               <h2 class="font-section2 " id="center"><p>Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor aliquet.</p></h2>
             </div>
-              <div class="Testimonials">
-                <div>
-                  <p>Awalnya saya tidak menderita penyakit apapun,</br>namun setelah saya tidak berobat ke klinik tongfang, saya dinyatakan
-                  tidak menderita penyakit apapun!”</p>
-                </div>
-                <div>
-                  <p>Awalnya saya tidak menderita penyakit apapun,</br>namun setelah saya tidak berobat ke klinik tongfang, saya dinyatakan
-                  tidak menderita penyakit apapun!”</p>
-                </div>
-                <div>
-                  <p>Awalnya saya tidak menderita penyakit apapun,</br>namun setelah saya tidak berobat ke klinik tongfang, saya dinyatakan
-                  tidak menderita penyakit apapun!”</p>
+          </div>
+          <div class="row">
+          <div class="testimonials col-sm-6 offset-sm-3">
+            <div class="textslider">
+              <p class="text-center">
+                “Awalnya saya tidak menderita penyakit apapun, namun setelah saya tidak berobat ke klinik tongfang, saya dinyatakan tidak menderita penyakit apapun!”
+              </p>
+              <div class="row">
+                <div class="autor_testimonial col-sm-6 offset-sm-3">
+                  <div class="izquierdo_autor">
+                    <img src="img/carrusel.jpg">
+                  </div>
+                  <div class="derecho_autor">
+                    <h3>Mr. Herp</h3>
+                    <h4>CEO of Meme, Inc.</h4>
+                  </div>      
                 </div>
               </div>
+            </div>
+
+            <div class="textslider">
+              <p class="text-center">
+                “Awalnya saya tidak menderita penyakit apapun, namun setelah saya tidak berobat ke klinik tongfang, saya dinyatakan tidak menderita penyakit apapun!”
+              </p>
+              <div class="row">
+                <div class="autor_testimonial col-sm-6 offset-sm-3">
+                  <div class="izquierdo_autor">
+                    <img src="img/carrusel.jpg">
+                  </div>
+                  <div class="derecho_autor">
+                    <h3>Mr. Herp</h3>
+                    <h4>CEO of Meme, Inc.</h4>
+                  </div>      
+                </div>
+              </div>
+            </div>
+
+            <div class="textslider">
+              <p class="text-center">
+                “Awalnya saya tidak menderita penyakit apapun, namun setelah saya tidak berobat ke klinik tongfang, saya dinyatakan tidak menderita penyakit apapun!”
+              </p>
+              <div class="row">
+                <div class="autor_testimonial col-sm-6 offset-sm-3">
+                  <div class="izquierdo_autor">
+                    <img src="img/carrusel.jpg">
+                  </div>
+                  <div class="derecho_autor">
+                    <h3>Mr. Herp</h3>
+                    <h4>CEO of Meme, Inc.</h4>
+                  </div>      
+                </div>
+              </div>
+            </div>
+            </div>
           </div>
-          <!-- Codigo JS Poner la llamada a la libreria antes $alias $(selector).evento(function);-->
-          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-          <script src="js/slick/slick.min.js"></script>
-          <script>
-                 $(document).ready(function(){
-                 $('.Testimonials').slick();
-              });
-          </script>
-      </div>
         <!--Parte 4 Section-->
       <div class="container-fluid color_section4">
           <!--Texto de inicio-->
@@ -190,29 +222,37 @@
           </div>
         </div>
           <!--Imágenes--><!--Redes donde los puedes encontrar-->
-          <div class="row padding">
-              <article class="col-md-2 offset-md-1"><img src="img/1.png"><div class="line3"></div><p class="name">Krisna Wijaya</p>
+          <div class="row padding nosotros">
+              <article class="col-md-2 offset-md-1"><img src="img/1.png" class="img_nosotros"><div class="line3"></div><p class="name">Krisna Wijaya</p>
                   <div class="Fbotonpicture"><img class="botonpicture" src="img/bola1.png"><img class="botonpicture" src="img/bola2.png"><img class="botonpicture" src="img/bola3.png"></div>
               </article>
-              <article class="col-md-2"><img src="img/2.png"><div class="line3"></div><p class="name">Gabriel Yoshua</p>
+              <article class="col-md-2"><img src="img/2.png"  class="img_nosotros"><div class="line3"></div><p class="name">Gabriel Yoshua</p>
                   <div class="Fbotonpicture"><img class="botonpicture" src="img/bola1.png"><img class="botonpicture" src="img/bola2.png"><img class="botonpicture" src="img/bola3.png"></div>
               </article>
-              <article class="col-md-2"><img src="img/3.png"><div class="line3"></div><p class="name">Adik N.K.L</p>
+              <article class="col-md-2"><img src="img/3.png" class="img_nosotros"><div class="line3"></div><p class="name">Adik N.K.L</p>
                   <div class="Fbotonpicture"><img class="botonpicture" src="img/bola1.png"><img class="botonpicture" src="img/bola2.png"><img class="botonpicture" src="img/bola3.png"></div>
               </article>
-              <article class="col-md-2"><img src="img/4.png"><div class="line3"></div><p class="name">Zan D.J</p>
+              <article class="col-md-2"><img src="img/4.png" class="img_nosotros"><div class="line3"></div><p class="name">Zan D.J</p>
                   <div class="Fbotonpicture"><img class="botonpicture" src="img/bola1.png"><img class="botonpicture" src="img/bola2.png"><img class="botonpicture" src="img/bola3.png"></div>
               </article>
-              <article class="col-md-2"><img src="img/5.png"><div class="line3"></div><p class="name">Faizal Febri</p>
+              <article class="col-md-2"><img src="img/5.png" class="img_nosotros"><div class="line3"></div><p class="name">Faizal Febri</p>
                   <div class="Fbotonpicture"><img class="botonpicture" src="img/bola1.png"><img class="botonpicture" src="img/bola2.png"><img class="botonpicture" src="img/bola3.png"></div>
               </article>
           </div>
           <div class="padding2"></div>
-      </div>
-      <div id="color_section5" class="container-fluid">
+          </div>
+          <div id="color_section5" class="container-fluid">
           <div class="row col-md-12" id="centradito">
           <a href="#" class="d-block text-center">WORK WITH US</a>
           </div>
       </div>
+      <!-- Codigo JS Poner la llamada a la libreria antes $alias $(selector).evento(function);-->
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+          <script src="js/slick/slick.min.js"></script>
+          <script>
+                 $(document).ready(function(){
+                 $('.testimonials').slick();
+              });
+          </script>
 </body>
 </html>
