@@ -26,8 +26,9 @@
       </ul>
     </nav>
     <div class="col-md-2 offset-md-6"><!-- offset-md-6 es para avisar que tiene una distancia de 6 columnas, funcion de bootstrap version 3. class="col-md-4"-->
-      <form action="#">
-        <input type="text" placeholder="Search..." class="buscador">
+      <form action="#" class="buscador">
+        <input type="text" placeholder="Search..." class="buscador1">
+        <i class="fa fa-search fa-md lupa" aria-hidden="true"></i>
       </form>
       </div>
     </div>
@@ -96,11 +97,11 @@
           </div>
         </div>
           <div class="row padding">
-            <div class="col-md-4 offset-md-4">
+            <div class="col-md-4 offset-md-4" id="center">
               <nav class="nav nav-pills flex-column flex-sm-row">
-                <a class="flex-sm-fill text-sm-center nav-link active" href="#">Photography</a>
-                <a class="flex-sm-fill text-sm-center nav-link" href="#">Design</a>
-                <a class="flex-sm-fill text-sm-center nav-link1" href="#">Print</a>
+                <a id="photography" class="flex-sm-fill text-sm-center nav-link active" href="#">Photography</a>
+                <a id="design" class="flex-sm-fill text-sm-center nav-link" href="#">Design</a>
+                <a id="print" class="flex-sm-fill text-sm-center nav-link1" href="#">Print</a>
               </nav>
             </div>
           </div>
@@ -123,7 +124,7 @@
           <div id="center" class="padding"><a href="#" class="d-block centradito2">View more work <i class="fa fa-arrow-right fa-xs" aria-hidden="true"></i></a></div> 
       </div>
       <!--Parte 3 Section-->
-      <div class="container-fluid">
+      <div class="container-fluid" id="color_section3">
           <!--Texto de inicio-->
           <div class="row">
             <div class="col-md-8 offset-md-2">
@@ -132,7 +133,7 @@
               <h2 class="font-section2 " id="center"><p>Lorem ipsum dolor sit amet. Proin gravida nibh vel velit auctor aliquet.</p></h2>
             </div>
           </div>
-          <div class="row">
+          <div class="row padding1">
           <div class="testimonials col-sm-6 offset-sm-3">
             <div class="textslider">
               <p class="text-center">
@@ -185,7 +186,7 @@
               </div>
             </div>
             </div>
-          </div>
+      </div>
         <!--Parte 4 Section-->
       <div class="container-fluid color_section4">
           <!--Texto de inicio-->
@@ -197,20 +198,20 @@
             </div>
           </div>
           <!--Imágenes-->
-          <div class="row col-md-12 padding">
-              <article class="col-md-2 offset-md-2 logo"><img src="img/GOOGLE.jpg"></article>
-              <article class="col-md-2 logo"><img src="img/YAHOO.jpg"></article>
-              <article class="col-md-2 logo"><img src="img/MICROSOFT.jpg"></article>
-              <article class="col-md-2 logo"><img src="img/INTEL.jpg"></article>
+          <div class="row padding">
+              <article class="col-md-2 offset-md-2 logo"><a href="https://www.google.com.mx/"><img src="img/GOOGLE.jpg"></a></article>
+              <article class="col-md-2 logo"><a href="https://espanol.yahoo.com/"><img src="img/YAHOO.jpg"></a></article>
+              <article class="col-md-2 logo"><a href="https://www.microsoft.com/es-mx"><img src="img/MICROSOFT.jpg"></a></article>
+              <article class="col-md-2 logo"><a href="https://www.intel.la/content/www/xl/es/homepage.html"><img src="img/INTEL.jpg"></a></article>
           </div>
-          <div class="row col-md-12 padding1">
-              <article class="col-md-2 offset-md-2 logo"><img src="img/QUALCOMM.jpg"></article>
-              <article class="col-md-2 logo"><img src="img/CISCO.jpg"></article>
-              <article class="col-md-2 logo"><img src="img/APPLE.jpg"></article>
-              <article class="col-md-2 logo"><img src="img/ASUS.jpg"></article>
+          <div class="row padding1">
+              <article class="col-md-2 offset-md-2 logo"><a href="https://www.qualcomm.com/"><img src="img/QUALCOMM.jpg"></a></article>
+              <article class="col-md-2 logo"><a href="https://www.cisco.com/c/es_mx/index.html?CCID=cc000727&DTID=pseggl000015&POSITION=SEM&COUNTRY_SITE=mx&CAMPAIGN=nbt-00&CREATIVE=MX_SEM_GEN_Pure-Brand_EM_B-Cisco_pseg&REFERRING_SITE=Google&KEYWORD=cisco&gclid=EAIaIQobChMIsPGUpri33gIVg7rACh2g3wY3EAAYASAAEgIQ-fD_BwE"><img src="img/CISCO.jpg"></a></article>
+              <article class="col-md-2 logo"><a href="https://www.apple.com/mx/?afid=p238%7CsLHHgzTlu-dc_mtid_1870765e38482_pcrid_263353352151_&cid=aos-mx-kwgo-brand--slid--product-"><img src="img/APPLE.jpg"></a></article>
+              <article class="col-md-2 logo"><a href="https://www.asus.com/mx/"><img src="img/ASUS.jpg"></a></article>
           </div>
           <!--Boton See all client-->
-          <div id="center" class="padding"><a href="#" class="d-block centradito3">See all client  <i class="fa fa-arrow-right fa-xs" aria-hidden="true"></i></a></div>
+          <div id="center" class="padding"><a href="#" class="d-block centradito3">See all client  <i class="fa fa-arrow-right fa-xs arrow" aria-hidden="true"></i></a></div>
       </div>
        <!--Parte 5 Section-->
       <div id="color_section" class="container-fluid">
@@ -224,28 +225,111 @@
           <!--Imágenes--><!--Redes donde los puedes encontrar-->
           <div class="row padding nosotros">
               <article class="col-md-2 offset-md-1"><img src="img/1.png" class="img_nosotros"><div class="line3"></div><p class="name">Krisna Wijaya</p>
-                  <div class="Fbotonpicture"><img class="botonpicture" src="img/bola1.png"><img class="botonpicture" src="img/bola2.png"><img class="botonpicture" src="img/bola3.png"></div>
+                  <div class="Fbotonpicture"><a href="https://dribbble.com/"><img title="dribbble" class="botonpicture" src="img/bola1.png"></a><a href="https://www.behance.net/"><img title="behance" class="botonpicture" src="img/bola2.png"></a><a href="https://twitter.com/?lang=es"><img title="twitter" class="botonpicture" src="img/bola3.png"></a></div>
               </article>
               <article class="col-md-2"><img src="img/2.png"  class="img_nosotros"><div class="line3"></div><p class="name">Gabriel Yoshua</p>
-                  <div class="Fbotonpicture"><img class="botonpicture" src="img/bola1.png"><img class="botonpicture" src="img/bola2.png"><img class="botonpicture" src="img/bola3.png"></div>
+                  <div class="Fbotonpicture"><a href="https://dribbble.com/"><img title="dribbble" class="botonpicture" src="img/bola1.png"></a><a href="https://www.behance.net/"><img title="behance" class="botonpicture" src="img/bola2.png"></a><a href="https://twitter.com/?lang=es"><img title="twitter" class="botonpicture" src="img/bola3.png"></a></div>
               </article>
               <article class="col-md-2"><img src="img/3.png" class="img_nosotros"><div class="line3"></div><p class="name">Adik N.K.L</p>
-                  <div class="Fbotonpicture"><img class="botonpicture" src="img/bola1.png"><img class="botonpicture" src="img/bola2.png"><img class="botonpicture" src="img/bola3.png"></div>
+                  <div class="Fbotonpicture"><a href="https://dribbble.com/"><img title="dribbble" class="botonpicture" src="img/bola1.png"></a><a href="https://www.behance.net/"><img title="behance" class="botonpicture" src="img/bola2.png"></a><a href="https://twitter.com/?lang=es"><img title="twitter" class="botonpicture" src="img/bola3.png"></a></div>
               </article>
               <article class="col-md-2"><img src="img/4.png" class="img_nosotros"><div class="line3"></div><p class="name">Zan D.J</p>
-                  <div class="Fbotonpicture"><img class="botonpicture" src="img/bola1.png"><img class="botonpicture" src="img/bola2.png"><img class="botonpicture" src="img/bola3.png"></div>
+                  <div class="Fbotonpicture"><a href="https://dribbble.com/"><img title="dribbble" class="botonpicture" src="img/bola1.png"></a><a href="https://www.behance.net/"><img title="behance" class="botonpicture" src="img/bola2.png"></a><a href="https://twitter.com/?lang=es"><img title="twitter" class="botonpicture" src="img/bola3.png"></a></div>
               </article>
               <article class="col-md-2"><img src="img/5.png" class="img_nosotros"><div class="line3"></div><p class="name">Faizal Febri</p>
-                  <div class="Fbotonpicture"><img class="botonpicture" src="img/bola1.png"><img class="botonpicture" src="img/bola2.png"><img class="botonpicture" src="img/bola3.png"></div>
+                  <div class="Fbotonpicture"><a href="https://dribbble.com/"><img title="dribbble" class="botonpicture" src="img/bola1.png"></a><a href="https://www.behance.net/"><img title="behance" class="botonpicture" src="img/bola2.png"></a><a href="https://twitter.com/?lang=es"><img title="twitter" class="botonpicture" src="img/bola3.png"></a></div>
               </article>
           </div>
-          <div class="padding2"></div>
-          </div>
+              <div class="padding2"></div>
+      </div>
+
+          <!--Parte Section -->
           <div id="color_section5" class="container-fluid">
-          <div class="row col-md-12" id="centradito">
-          <a href="#" class="d-block text-center">WORK WITH US</a>
+            <div class="row col-md-12" id="centradito">
+              <a href="#" class="d-block text-center">WORK WITH US</a>
+            </div>
+          </div>
+      <!--Parte 7 Section -->
+      <div class="container-fluid" id="color_section6">
+          <div class="row">
+              <div class="col-md-4 about_us">
+                  <h6 class="">ABOUT US</h6>
+                  <div class="line"></div>
+                  <p class="padding1 font">  This is Photoshop's version  of Lorem<br>Ipsum. Proin gravida nibh vel velit auctor<br> aliquet. Aenean sollicitudin, lorem quis<br>bibendum auctor, nisi elit consequat ipsum,<br>nec sagittis sem nibh id elit. Duis sed odio sit<br> amet nibh vulputate cursus a sit amet mauris.<br> Morbi accumsan ipsum velit. Ut aliquam<br> massa nisl quis neque. Suspendisse in orci<br> enim.Aenean sollicitudin, lorem quis biben-<br>dum auctor, nisi elit consequat ipsum, nec<br> sagittis sem nibh id elit. Duis sed odio sit<br> amet nibh vulputate cursus.</p>
+                  <div class="padding1"></div>
+                  <div class="Fbotonpicture"><a href="https://dribbble.com/"><img title="dribbble" class="botonpicture" src="img/bola1.png"></a><a href="https://www.facebook.com/"><img title="facebook" class="botonpicture" src="img/bola4.png"></a><a href="https://twitter.com/?lang=es"><img title="twitter" class="botonpicture" src="img/bola3.png"></a></div>
+              </div>
+              <div class="col-md-4 about_us">
+                  <h6 class="">RECENT POSTS</h6>
+                  <div class="line"></div>
+                  <article class="inline padding1">
+                    <div class="P1"></div>
+                    <div class="inline2"><p class="font1">Lorem Ipsum Dolor Sit Amet.</p><div class="magazine"><a href="http://www.magazinedigital.com/" class="magazine">MAGAZINE</a></div></div>
+                  </article>
+                  <article class="inline">
+                    <div class="P2"></div>
+                    <div class="inline2"><p class="font1">Lorem Ipsum Dolor Sit Amet.</p><div class="UI_design"><a href="https://www.wix.com/html5en/hiker-design?experiment_id=design%2Bwebs%5Ep%5E48580305700%5E1t1&gclid=EAIaIQobChMIlvjE14fE3gIVkJ6fCh1fEgQCEAAYASAAEgLO_vD_BwE&utm_campaign=600540144%5E10626226300&utm_medium=cpc&utm_source=google" class="UI_design">UI DESIGN</a></div></div>
+                  </article>
+                  <article class="inline">
+                    <div class="P3"></div>
+                    <div class="inline2"><p class="font1">Lorem Ipsum Dolor Sit Amet.</p><div class="photography"><a href="https://www.nationalgeographic.com/photography/" class="photography">PHOTOGRAPHY</a></div></div>
+                  </article>
+                  <article class="inline">
+                    <div class="P4"></div>
+                    <div class="inline2"><p class="font1">Lorem Ipsum Dolor Sit Amet.</p><div class="book"><a href="https://books.google.es/" class="book">BOOK</a></div></div>
+                  </article>
+                  <article class="inline">
+                    <div class="P5"></div>
+                    <div class="inline2"><p class="font1">Lorem Ipsum Dolor Sit Amet.</p><div class="UI_design"><a href="https://www.wix.com/html5en/hiker-design?experiment_id=design%2Bwebs%5Ep%5E48580305700%5E1t1&gclid=EAIaIQobChMIlvjE14fE3gIVkJ6fCh1fEgQCEAAYASAAEgLO_vD_BwE&utm_campaign=600540144%5E10626226300&utm_medium=cpc&utm_source=google" class="UI_design">UI DESIGN</a></div></div>
+                  </article>
+              </div>
+              <div class="col-md-4 about_us">
+                  <h6 class="">CONTACT US</h6>
+                  <div class="line"></div> 
+                  <p class="padding1 data">10044 West 23th Street, Suite 721<br>New York NY 10010<br>Email: Username@email.com<br>Phone: +1 (0) 123 4567 890<br> 
+                        Fax: +1 (0) 321 4567 890</p>
+                  <form action="#">
+                      <input type="text" placeholder=" Your Name.." class="form">
+                      <input type="email" placeholder=" Your Email.." class="form1">
+                      <input type="text" placeholder=" Your Message.." class="form3">
+                      <input type="submit" value=" SEND" class="form2">
+                  </form>
+              </div>
           </div>
       </div>
+      <!--Parte 7 Section -->
+      <div class="container-fluid" id="color_section7">
+          <div class="row">
+            <div class="col-md-8 offset-md-2">
+              <h2 class="font7 padding1" id="center">AS SEEN ON</h2>
+              <hr class="line7">
+            </div>
+          </div>
+          <div class="row padding1">
+              <div class="col-md-2 offset-md-1">
+                <img class="img_nosotros" src="img/cnn.jpg">
+              </div>
+              <div class="col-md-2">
+                <img class="img_nosotros" src="img/te.jpg">
+              </div>
+              <div class="col-md-2">
+                <img class="img_nosotros" src="img/bbc.jpg">
+              </div>
+              <div class="col-md-4">
+                <img class="img_nosotros" src="img/TNYT.jpg">
+              </div>
+          </div>
+      </div>
+      <!--Footer -->
+        <footer>
+          <div class="row">
+            <div class="col-md-8 offset-md-2" id="center">
+                <p>made with <i class="fa fa-heart fa-xs" aria-hidden="true"></i>  by Krisna :) </p>
+                
+             </div>
+          </div>
+        </footer>
+
       <!-- Codigo JS Poner la llamada a la libreria antes $alias $(selector).evento(function);-->
           <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
           <script src="js/slick/slick.min.js"></script>

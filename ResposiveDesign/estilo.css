@@ -52,11 +52,22 @@ li a{
 	border: none;/*quitar el border*/
 	border-radius: 15px; /* para hacerlo mas circular en las puntas*/
 	height: 27px;
-	padding: 7px 14px;/* 7px es e;l top y el 14 es derecha izq*/
+	padding: 3px 7px;/* 3px es el top y el 7 es derecha izq*/
 	font-size: 16px;
 	color: #111111;/*color dentro del buscador*/
     width: 100%;
     margin-top: 5px;
+}
+.buscador1{
+	background: rgba(217,216,216, 0);/*rgba es para transparencia*/
+	border: none;/*quitar el border*/
+	height: 100%;
+	font-size: 16px;
+	color: #111111;/*color dentro del buscador*/
+    width: 88%;
+}
+.lupa{
+	color: #555;
 }
 #center-header{
 	height: 560px; /* si tiene un border tengo que respetarle el tamño y restarle el tamaño del padding al; header*/
@@ -66,6 +77,7 @@ li a{
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+	text-decoration: none;
 }
 #centradito h1{
 	color: #fff;
@@ -100,15 +112,35 @@ li a{
 	height: 41px;
 	border-radius: 20px;
 	margin-top: 6px;
-	padding: 6px 0;
+	padding: 9px 0;
 	font-weight: normal;
 	font-size: 16px;
 	transition: 0.5s ease all;	
+ }
+.centradito2:hover{
+ 	text-decoration: none;
+	background: #f34d04;
+	transform: scale(1.05);
+	color: #fff;
+	text-decoration: none;
  }
  .centradito3{
  	background: #dddcdc;
 	color: #a9a2a2;
 	margin-bottom: 30px;
+	padding-top: 10px;
+	text-decoration: none;
+	width: 160px;
+ }
+ .centradito3:hover{
+ 	text-decoration: none;
+	background: #828181;
+	transform: scale(1.05);
+	color: #fff;
+	text-decoration: none;
+ }
+ .arrow{
+ 	align-items: right;
  }
 #centradito1{
 	background: #2b9b2b;
@@ -128,10 +160,6 @@ li a{
 	background: #f34d04;
 	transform: scale(1.05);
 }
-/*#scrollcentradito{
-	display: flex;
-	justify-content: center;		
-}*/
 #scrollcentradito a{
 	background: rgba(217,216,216, 0.85);/*rgba es para transparencia*/
 	border: none;/*quitar el border*/
@@ -141,11 +169,13 @@ li a{
 	text-align: center;
 	border-radius: 20px;
 	font-size: 15px;
-
+	padding: 1px 0px;
+	transition: 0.10s ease all;
 }
 #scrollcentradito a:hover{
 	text-decoration: none;
-	color: #fff;
+	background: rgba(168,165,165, 0.85);/*rgba es para transparencia*/
+	transform: scale(1.05);
 }
 #center-section{
 	display: flex;
@@ -163,7 +193,7 @@ li a{
 	justify-content: center;
 	width: 43px;
 	border-bottom:  2px  solid #828181;
-	float: center;
+	margin: auto;
 }
 .font-section2{
 	font-size: 15px;
@@ -223,7 +253,9 @@ li a{
 	margin-bottom: 72px;
 }
 #learnmore:hover{
-	color: #828181;
+	text-decoration: none;
+	background: #f34d04;
+	transform: scale(1.05);
 }
 #center{
 	display: flex;
@@ -244,6 +276,11 @@ li a{
 	border-bottom:  2px  solid #207b20;
 	margin-top: 12px;
 }
+.line7{
+	border-bottom:  2px  solid #111111;
+	width: 38px;
+	margin: auto;
+}
 .font-section3, .font-section4{
 	font-size: 15px;
 	color: #207b20;
@@ -253,30 +290,67 @@ li a{
 .font-section4{
 	color: black;
 }
+.nav{
+	width: 320px;
+}
 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
     color: #fff;
     background-color: #2b9b2b;
-    width: 110px;
-    height: 33px;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
+    padding-top: 7px;
  }
  .nav-pills .nav-link, .nav-pills .show>.nav-link {
     color: #2b9b2b;
     background-color: #fff;
-    width: 68px;
     height: 33px;
     border-radius: 0px;
     border-right: 1px solid;
+    padding-top: 7px;
  }
  .nav-link1{
- 	width: 48px;
  	color: #2b9b2b;
  	background-color: #fff;
  	text-decoration: none;
  	padding-top: 7px;
  	border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
+}
+#photography{
+	width: 60px;
+	border-top: 1px solid #2b9b2b;
+	border-bottom: 1px solid #2b9b2b;
+	border-left: 1px solid #2b9b2b;
+	border-right: 1px solid #2b9b2b;
+}
+#photography:hover{
+	text-decoration: none;
+	color: black;
+	transform: scale(1.05);
+}
+#design{
+	width: 10px;
+	border-top: 1px solid #2b9b2b;
+	border-bottom: 1px solid #2b9b2b;
+	border-left: 1px solid #2b9b2b;
+	border-right: 1px solid #2b9b2b;
+}
+#design:hover{
+	text-decoration: none;
+	color: black;
+	transform: scale(1.05);
+}
+#print{
+	width: 5px;
+	border-top: 1px solid #2b9b2b;
+	border-bottom: 1px solid #2b9b2b;
+	border-right: 1px solid #2b9b2b;
+}
+#print:hover{
+	text-decoration: none;
+	color: black;
+	border-left: 1px solid #2b9b2b;
+	transform: scale(1.05);
 }
  .padding{
  	margin-top: 50px;
@@ -342,8 +416,14 @@ margin: 10px auto;
 	background-color: #3eba3e;
 	padding-top: 20px;
 	padding-bottom: 20px;
+	padding-left: 0px;
+	padding-right: 0px;
 }
-
+#color_section3{
+	background-color: #fff;
+	padding-left: 0px;
+	padding-right: 0px;
+}
 .autor_testimonial{
 	display: flex;
 	align-items: center;
@@ -366,6 +446,149 @@ margin: 10px auto;
 .img_nosotros{
 	display: block;
 	margin: auto;
+}
+#color_section6{
+	background-color: #333333;
+	padding-right: 0px;
+	padding-left: 0px;
+	padding: auto;
+	color: #aeaeae;
+	text-align: center;
+	padding-bottom: 55px;
+}
+.about_us{
+	display: block;
+	margin-top: 28px;
+}
+.P1, .P2, .P3, .P4, .P5{
+	background:url("img/P1.jpg");
+	height: 52px;
+	width: 51px;
+	background-repeat: no-repeat;
+	border-radius: 5px;
+	margin-bottom: 11px;
+}
+.P2{
+	background:url("img/P2.jpg");
+}
+.P3{
+	background:url("img/P3.jpg");
+}
+.P4{
+	background:url("img/P4.jpg");
+}
+.P5{
+	background:url("img/P5.jpg");
+}
+.magazine, .UI_design, .photography, .book{
+	background-color: #54d154;
+	color: #fff;
+	width: 81px;
+	height: 18px;
+	font-size: 12px;
+	border-radius: 3px;
+	text-decoration: none;
+}
+.UI_design{
+	background-color: #ffba00;
+	width: 77px;
+}
+.photography{
+	background-color: #089be9;
+	width: 107px;
+}
+.book{
+	background-color: #f34d04;
+	width: 47px;
+}
+.UI_design:hover{
+	text-decoration: none;
+	transform: scale(1.05);
+	color: black;
+}
+.photography:hover{
+	text-decoration: none;
+	transform: scale(1.05);
+	color: black;
+}
+.magazine:hover{
+	text-decoration: none;
+	transform: scale(1.05);
+	color: black;
+}
+.book:hover{
+	text-decoration: none;
+	transform: scale(1.05);
+	color: black;
+}
+.inline{
+	display: inline-flex;
+}
+.inline2{
+	display: inline-block;
+	margin-left: 7px;
+	margin-top: none;
+}
+.data{
+	font-size: 12px;
+}
+.form, .form1, .form2, .form3{
+	background: rgba(68,68,68, 0.85);/*rgba es para transparencia*/
+	border: none;/*quitar el border*/
+	border-top-right-radius: 3px; /* para hacerlo mas circular en las puntas*/
+	border-top-left-radius: 3px;
+	height: 32px;
+	font-size: 14px;
+	color: #aeaeae;/*color dentro del buscador*/
+    width: 323px;
+    margin-top: 5px;
+}
+.form1, .form2, .form3{
+	border-top-right-radius: 0px; /* para hacerlo mas circular en las puntas*/
+	border-top-left-radius: 0px;
+}
+.form3{
+	height: 130px;
+}
+.form2{
+	background: rgba(43,155,43, 0.85);/*rgba es para transparencia*/
+	border-bottom-right-radius: 3px; /* para hacerlo mas circular en las puntas*/
+	border-bottom-left-radius: 3px;
+	font-size: 16px;
+}
+.form2:hover{
+	background: #f34d04;
+}
+.font, .font7, .font1{
+	font-size: 14px;
+	margin-bottom: 1px;
+}
+.font1{
+	font-size: 16px;
+}
+
+#color_section7{
+	display: block;
+	margin: auto;
+	background-color: #222222;
+	color: #111;
+	font-size: 10px;
+	padding-bottom: 20px;
+}
+.font7{
+	font-size: 20px;
+}
+footer{
+	background-color: #111;
+	color: #fff;
+	height: 34px;
+	font-size: 13px;	    
+}
+footer p{
+	margin-top: 8px;
+}
+.alinear{
+	display: inline-block;
 }
 /* Investigar como añadir fuentes con google fonts
 en el head agrego: 
